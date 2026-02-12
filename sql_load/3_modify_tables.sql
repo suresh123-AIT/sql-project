@@ -47,5 +47,5 @@ WITH (FORMAT csv, HEADER true, DELIMITER ',', ENCODING 'UTF8');
 
 
 -- Modifying job_applied table
-SELECT * FROM skills_job_dim
+SELECT * FROM job_postings_fact
 Limit 100;
